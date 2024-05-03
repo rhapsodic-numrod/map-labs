@@ -52,6 +52,9 @@ android {
 }
 
 dependencies {
+//    ViewModel
+    implementation(libs.androidx.lifecycle.viewmodel.ktx)
+//    LiveData
 
 //    Retrofit
     implementation(libs.retrofit)
